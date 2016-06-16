@@ -342,6 +342,16 @@ figure{
   font-weight: 100;
 }
 
+
+/* Start Contact Section */
+
+#banner-contact{
+  background: url(../images/indexbanner-bg2.jpg) center top no-repeat;
+  background-size: cover;
+}
+
+/* Finish Contact Section*/
+
 @media (max-width:800px) {
 
   .container, .main-header {
