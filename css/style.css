@@ -345,10 +345,72 @@ figure{
 
 /* Start Contact Section */
 
-#banner-contact{
+#banner2{
   background: url(../images/indexbanner-bg2.jpg) center top no-repeat;
   background-size: cover;
+  padding: 10% 0;
 }
+
+.banner2-title{
+  font-size: 50px;
+  color: #fff;
+  margin: 0;
+}
+
+.banner2-text{
+  font-size: 20px;
+  color: #fff;
+}
+.contact-form {
+  width:100%;
+}
+.left-form, .right-form {
+  width: 50%;
+  float: left;
+
+}
+
+
+.left-form input{
+  border:solid 1px grey;
+  width: 95%;
+  height: 50px;
+  font-size: 13px;
+  font-family: inherit;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin: 0 2.5% 10px 2.5%;
+  float: left;
+}
+
+.right-form input{
+  border:solid 1px grey;
+  width: 95%;
+  height: 170px;
+  font-size: 13px;
+  font-family: inherit;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin: 0 2.5%;
+  float: right;
+  padding-bottom: 120px;
+}
+.contact-button {
+  width:100%;
+  margin:10px auto;
+  text-align: center;
+}
+.button-form {
+  border: none;
+  background-color: #06B4F2;
+  width: 15%;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 
 /* Finish Contact Section*/
 
