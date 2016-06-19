@@ -367,9 +367,7 @@ figure{
 .left-form, .right-form {
   width: 50%;
   float: left;
-
 }
-
 
 .left-form input{
   border:solid 1px grey;
@@ -403,7 +401,7 @@ figure{
 .button-form {
   border: none;
   background-color: #06B4F2;
-  width: 15%;
+  width: 20%;
   height: 40px;
   color: #fff;
   border-radius: 5px;
@@ -420,6 +418,11 @@ figure{
   .container, .main-header {
     width:95%;
   }
+
+  .main-nav {
+    float: left;
+    padding-left: 20%;
+}
   .producto {
     width:50%;
     margin-top: 80px;
@@ -454,20 +457,31 @@ figure{
   .price-table table {
     font-size: 12px;
   }
-}
-
-@media (max-width:600px) {
-  
-  .logo, .main-nav, .main-nav li, .copyright, .footer-nav, .footer-nav li {
+  .copyright, .footer-nav, .footer-nav li {
     float:none;
     margin:auto;
     text-align:center;
     margin-top:2%;
   }
+}
+
+@media (max-width:600px) {
+
+  .logo, .main-nav, .main-nav li {
+    float:none;
+    margin:auto;
+    text-align:center;
+    margin-top:2%;
+    padding-left:0;
+  }
+  
   #banner {
     background:none;
   }
-  .banner-title, .banner-text {
+  #banner2 {
+    display:none;
+  }
+  .banner-title, .banner-text{
     display:none;
   }
   .title-services + p {
@@ -479,6 +493,11 @@ figure{
   }
   .main-footer h3 span {
     font-size: 30px;
+  }
+
+  .left-form, .right-form {
+  width: 95%;
+  float: none;
   }
 }
 
